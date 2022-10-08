@@ -1,3 +1,7 @@
+.header {
+    margin-bottom: 32px;
+}
+
 .header a{
     color: #9A9A9A;
     font-weight: 900;
@@ -57,19 +61,23 @@
 }
 
 .header .alter-page .anime span {
-    background-image: url(/img/anime-icon.png);
+    -webkit-mask-image: url(/img/anime-icon.svg);
+    mask-image: url(/img/anime-icon.svg);
+    background-color: #9A9A9A;
 }
 
 .header .alter-page .anime.active span {
-    background-image: url(/img/anime-icon-active.png);
+    background-color: #ED4E51;
 }
 
 .header .alter-page .manga span {
-    background-image: url(/img/manga-icon.png);
+    -webkit-mask-image: url(/img/manga-icon.svg);
+    mask-image: url(/img/manga-icon.svg);
+    background-color: #9A9A9A;
 }
 
 .header .alter-page .manga.active span {
-    background-image: url(/img/manga-icon-active.png);
+    background-color: #ED4E51;
 }
 
 .header .menu {

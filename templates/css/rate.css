@@ -1,0 +1,19 @@
+.rate {
+    width: 54px;
+    height: 22px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: rgba(49, 49, 49, 0.75);
+    padding-left: 9px;
+    padding-right: 11px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rate img {
+    -webkit-user-drag: none;
+}

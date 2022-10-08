@@ -3,7 +3,7 @@
     <div class="container">
         <div class="left">
             <div class="logo">
-                <img src="./img/logo.png" alt="Logo">
+                <img src="./img/logo.svg" alt="Logo">
             </div>
             <div class="separ"></div>
             <div class="alter-page">
@@ -19,7 +19,7 @@
         </div>
         <div class="right">
             <button class="search-btn">
-                <img src="./img/search.png" alt="">
+                <img src="./img/search.svg" alt="">
             </button>
             <div class="profile">
                 <p>Вход в профиль</p>

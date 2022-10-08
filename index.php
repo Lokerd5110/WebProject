@@ -12,7 +12,8 @@
 </head>
 <body>
     <?php 
-        include "./templates/header.php"
+        include "./templates/header.php";
+        include "./templates/small-card.php";
     ?>
 </body>
 </html>

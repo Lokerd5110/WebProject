@@ -1,0 +1,99 @@
+.banner {
+    box-sizing: border-box;
+    padding: 24px 32px 65px 32px;
+    width: 837px;
+    height: 384px;
+    background-image: url(/img/banner-background.png);
+    border-radius: 40px;
+    color: white;
+}
+
+.banner .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 111px;
+}
+
+.banner .top .rate {
+    width: 72px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: rgba(49, 49, 49, 0.75);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 12px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.banner .top .rate img {
+    -webkit-user-drag: none;
+}
+
+.banner .top .top-number {
+    display: block;
+    width: 48px;
+    height: 43px;
+    background-image: url(/img/top-number.svg);
+    position: relative;
+    top: 2px;
+}
+
+.banner .top .top-number p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 43px;
+    text-align: center;
+    background: linear-gradient(0deg, #FFC226 33%, #AA7A00 66%,  #F3BA26);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner .header  {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 21px;
+    width: 645px;
+}
+
+.banner .description {
+    color:rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+    width: 500px;
+    height: 72px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 33px;
+}
+
+.banner .slider {
+    width: 70px;
+    height: 29px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner .slider button {
+    border: none;
+    background: none;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    line-height: 10px;
+}
+
+.banner .slider button img {
+    opacity: 0.5;
+}
+
+.banner .slider button .active {
+    filter: invert(38%) sepia(58%) saturate(3068%) hue-rotate(332deg) brightness(97%) contrast(91%);
+    opacity: 1;
+}
