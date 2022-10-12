@@ -1,0 +1,42 @@
+.rating {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.rating .section-header {
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.rating .section-header::after {
+    display: block;
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url("/img/rating-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 6px;
+}
+
+.rating .banners {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 307px;
+    overflow: hidden;
+    position: relative;
+}
+
+.rating .banners .big-card {
+    margin-right: 20px;
+}
+
+.rating .swap-btn {
+    position: absolute;
+    right: -25px;
+    bottom: 138px;
+    background-color: transparent;
+    border: none;
+}

@@ -1,0 +1,26 @@
+.popular-genres {
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.popular-genres .section-header {
+    margin-bottom: 32px;
+}
+
+.popular-genres .genres-list {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.popular-genres .genres-list .genre-card {
+    margin-right: 20px;
+}
+
+.popular-genres .swap-btn {
+    position: absolute;
+    right: -25px;
+    bottom: 52px;
+    background-color: transparent;
+    border: none;
+}

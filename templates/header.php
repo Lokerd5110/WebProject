@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./templates/css/header.css">
+<?php $profileName = ""; ?> 
 <div class="header">
     <div class="container">
         <div class="left">
@@ -22,7 +22,13 @@
                 <img src="./img/search.svg" alt="">
             </button>
             <div class="profile">
-                <p>Вход в профиль</p>
+                <p><?php
+                    if($profileName == "") {
+                        echo("<span>Вход в профиль</span>");
+                    } else {
+                        echo("<span>Здравствуйте, </span>" . $profileName);
+                    }
+                ?></p>
                 <img src="./img/no-profile.png" alt="">
             </div>
         </div>

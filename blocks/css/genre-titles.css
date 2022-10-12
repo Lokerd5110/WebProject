@@ -1,0 +1,21 @@
+.genre-titles {
+    margin-bottom: 32px;
+}
+
+.genre-titles .section-header {
+    text-decoration: none;
+    color: black;
+}
+
+.genre-titles .section-header a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 32px;
+}
+
+.genre-titles .titles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

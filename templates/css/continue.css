@@ -1,0 +1,32 @@
+.continue {
+    width: 247px;
+    height: 46px;
+    display: flex;
+}
+
+.continue img {
+    margin-right: 16px;
+}
+
+.continue .titleName {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 4px;
+}
+
+.continue .content-series {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+
+.continue .continue-from {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+    margin-left: auto;
+    margin-top: 4px;
+}

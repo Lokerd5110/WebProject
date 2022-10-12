@@ -1,7 +1,7 @@
 .banner {
     box-sizing: border-box;
     padding: 24px 32px 65px 32px;
-    width: 837px;
+    min-width: 837px;
     height: 384px;
     background-image: url(/img/banner-background.png);
     border-radius: 40px;
@@ -71,16 +71,15 @@
     margin-bottom: 33px;
 }
 
-.banner .slider {
+.slider {
     width: 70px;
     height: 29px;
-    margin: 0 auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-.banner .slider button {
+.slider button {
     border: none;
     background: none;
     width: 10px;
@@ -89,11 +88,11 @@
     line-height: 10px;
 }
 
-.banner .slider button img {
+.slider button img {
     opacity: 0.5;
 }
 
-.banner .slider button .active {
+.slider button .active {
     filter: invert(38%) sepia(58%) saturate(3068%) hue-rotate(332deg) brightness(97%) contrast(91%);
     opacity: 1;
 }

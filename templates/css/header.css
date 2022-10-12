@@ -126,6 +126,11 @@
 
 .header .right .profile p {
     margin-right: 16px;
+    color: #969696;
+}
+
+.header .right .profile span {
+    color: black;
 }
 
 .header .line {

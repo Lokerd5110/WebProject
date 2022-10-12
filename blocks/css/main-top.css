@@ -1,0 +1,45 @@
+.main-top {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-top .banner-slider {
+    display: flex;
+    width: 837px;
+    height: 384px;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-top .banner-slider .slider {
+    position: absolute;
+    left: 376px;
+    bottom: 13px;
+}
+
+.main-top .continue-watching h2 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #494949;
+    margin-bottom: 34px;
+    position: relative;
+}
+
+.main-top .continue-watching h2::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #E9E9E9;
+    left: 0;
+    bottom: -11px;
+}
+
+.main-top .continue-watching ul {
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
