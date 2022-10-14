@@ -131,8 +131,6 @@
     left: 0;
     top: 54px;
     background-color: white;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 .catalog-filters form .main-filters .filter.active .filters span {
@@ -144,6 +142,13 @@
 .catalog-filters form .main-filters .filter.active .filters span:hover {
     background-color: #ED4E51;
     color: white;
+}
+
+.catalog-filters form .main-filters .filter.active .filters span:hover:last-child {
+    background-color: #ED4E51;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .catalog-filters form .main-filters .filter.active .filters span {

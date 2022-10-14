@@ -33,7 +33,7 @@
                 </button>
                 <div class="filters">
                     <?php for($i=0; $i < count($years); $i++) {
-                        echo ('<span><label for="'.$years[$i].'">'.$years[$i].' </label><input type="checkbox" class="checkbox" id="'.$years[$i].'" name="'.$years[$i].'"></span>');
+                        echo ('<span><input type="checkbox" class="checkbox" id="'.$years[$i].'" name="'.$years[$i].'"><label for="'.$years[$i].'">'.$years[$i].' </label></span>');
                     } ?>
                 </div>
             </span>
@@ -45,11 +45,11 @@
                 </button>
                 <div class="filters">
                     <?php for($i=0; $i < count($voices); $i+=2) {
-                        echo ('<span><label for="'.$voices[$i].'">'.$voices[$i+1].' </label><input type="checkbox" class="checkbox" id="'.$voices[$i].'" name="'.$voices[$i].'"></span>');
+                        echo ('<span><input type="checkbox" class="checkbox" id="'.$voices[$i].'" name="'.$voices[$i].'"><label for="'.$voices[$i].'">'.$voices[$i+1].' </label></span>');
                     } ?>
                 </div>
             </span>
-            <span class="filter">
+            <span class="filter active">
                 <button>
                     <h2 class="filter-name">Статус</h2>
                     <p class="selected-filters"></p>
@@ -57,7 +57,7 @@
                 </button>
                 <div class="filters">
                     <?php for($i=0; $i < count($statuses); $i+=2) {
-                        echo ('<span><label for="'.$statuses[$i].'">'.$statuses[$i+1].' </label><input type="checkbox" class="checkbox" id="'.$statuses[$i].'" name="'.$statuses[$i].'"></span>');
+                        echo ('<span><input type="checkbox" class="checkbox" id="'.$statuses[$i].'" name="'.$statuses[$i].'"><label for="'.$statuses[$i].'">'.$statuses[$i+1].' </label></span>');
                     } ?>
                 </div>
             </span>
