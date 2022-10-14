@@ -1,0 +1,77 @@
+.comment {
+    background-color: #FBFBFB;
+    border: 1px solid #E2E2E2;
+    border-radius: 20px;
+    padding: 32px 62px 32px 102px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.comment .top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.comment .top .avatar {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+
+.comment .top .comment-data .author-name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.comment .top .comment-data .date {
+    color: #8E8E8E;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.comment .top button {
+    font-family: "Nunito", sans-serif;
+}
+
+.comment .top .reply {
+    margin-left: auto;
+    margin-right: 24px;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0;
+    align-self: flex-start;
+}
+
+.comment .top .reply img {
+    margin-left: 8px;
+}
+
+.comment .top .like {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0;
+    margin-right: 8px;
+    align-self: flex-start;
+}
+
+.comment .top .dislike {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 0;
+    align-self: flex-start;
+}
+
+.comment .content {
+    width: 955px;
+    font-size: 16px;
+    line-height: 22px;
+}

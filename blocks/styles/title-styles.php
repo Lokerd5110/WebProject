@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/templates/css/header.css">
+<link rel="stylesheet" href="/templates/css/footer.css">
+<link rel="stylesheet" href="/blocks/css/title-top.css">
+<link rel="stylesheet" href="/templates/css/big-rate.css">
+<link rel="stylesheet" href="/blocks/css/title-origins.css">
+<link rel="stylesheet" href="/blocks/css/title-rating.css">
+<link rel="stylesheet" href="/blocks/css/title-similar.css">
+<link rel="stylesheet" href="/templates/css/small-card.css">
+<link rel="stylesheet" href="/blocks/css/title-comments.css">
+<link rel="stylesheet" href="/templates/css/comment.css">
+<link rel="stylesheet" href="/blocks/css/title-related.css">

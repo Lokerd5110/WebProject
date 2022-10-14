@@ -1,0 +1,83 @@
+.title-rating {
+    margin-bottom: 52px;
+}
+
+.title-rating .section-header {
+    margin-bottom: 32px;
+}
+
+.title-rating .simple-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.title-rating .simple-rating .stars {
+    display: flex;
+    width: 346px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 76px;
+}
+
+.title-rating .simple-rating .stars .star {
+    width: 40px;
+    height: 40px;
+    -webkit-mask-image: url(/img/big-title-star.svg);
+    mask-image: url(/img/big-title-star.svg);
+}
+
+.title-rating .simple-rating .number {
+    color: #AFAFAF;
+}
+
+.title-rating .simple-rating .number .summare {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 8px;
+}
+
+.title-rating .simple-rating .number .summare span {
+    color: #ED4E51;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.title-rating .simple-rating .number .rate-amount {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.title-rating .complex-rating .line td {
+    vertical-align: middle;
+    padding-bottom: 32px;
+}
+
+.title-rating .complex-rating .line td:nth-of-type(1) {
+    font-weight: 600;
+    color: #423050;;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.title-rating .complex-rating .line td:nth-of-type(3) {
+    position: relative;
+}
+
+
+.title-rating .complex-rating .grey-line {
+    width: 550px;
+    height: 7px;
+    background-color: #C4C4C4;
+    border-radius: 4px;
+}
+
+.title-rating .complex-rating .red-line {
+    height: 7px;
+    background-color: #ED4E51;
+    border-radius: 4px;
+    position: absolute;
+    top: 9px;
+}

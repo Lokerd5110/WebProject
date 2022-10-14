@@ -1,0 +1,291 @@
+.catalog-filters {
+    margin-bottom: 40px;
+}
+
+.catalog-filters .open-btn {
+    border: none;
+    border-radius: 40px;
+    background-color: #494949;
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 23px;
+    box-sizing: border-box;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+.catalog-filters .open-btn.active {
+    background-color: #EFEFEF;
+}
+
+.catalog-filters .open-btn p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.catalog-filters .open-btn.active p {
+    color: #494949;
+}
+
+.catalog-filters .open-btn span {
+    width: 24px;
+    height: 24px;
+    -webkit-mask-image: url(/img/filter-icon.svg);
+    mask-image: url(/img/filter-icon.svg);
+    background-color: #FFFFFF;
+}
+
+.catalog-filters .open-btn.active span {
+    background-color: #494949;
+}
+
+.catalog-filters .open-btn:not(.active) + form {
+    display: none;
+}
+
+.catalog-filters form {
+    background-color: #EFEFEF;
+    border-radius: 20px;
+    padding: 24px;
+    padding-bottom: 21px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.catalog-filters form .main-filters {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-filters form .main-filters .filter {
+    background-color: white;
+    width: 260px;
+    border-radius: 10px;
+    padding: 8px 18px 0px 16px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.catalog-filters form .main-filters .filter.active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.catalog-filters form .main-filters .filter button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 8px;
+}
+
+.catalog-filters form .main-filters .filter .filter-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #494949;
+}
+
+.catalog-filters form .main-filters .filter .selected-filters {
+    font-weight: 500;
+    font-size: 12px;
+    width: 200px;
+    height: 16px;
+    line-height: 16px;
+    color: #666666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.catalog-filters form .main-filters .filter img {
+    position: absolute;
+    right: 8px;
+    top: 11px;
+}
+
+.catalog-filters form .main-filters .filter.active img {
+    transform: rotate(180deg);
+}
+
+.catalog-filters form .main-filters .filter .filters {
+    display: none;
+}
+
+.catalog-filters form .main-filters .filter.active .filters {
+    display: flex;
+    width: 260px;
+    flex-direction: column;
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 54px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.catalog-filters form .main-filters .filter.active .filters span {
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+
+.catalog-filters form .main-filters .filter.active .filters span:hover {
+    background-color: #ED4E51;
+    color: white;
+}
+
+.catalog-filters form .main-filters .filter.active .filters span {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.catalog-filters form .main-filters .filter.active .filters .checkbox {
+    opacity: 0;
+    margin: auto;
+    height: 44px;
+}
+
+.catalog-filters form .main-filters .filter.active .filters label {
+    width: 100%;
+    line-height: 44px;
+    margin: 0;
+}
+
+.catalog-filters form .main-filters .filter.active .filters label::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 1px;
+    background-color: #E9E9E9;
+}
+
+.catalog-filters form .main-filters .filter.active .filters label::after {
+    opacity: 1;
+    content: "";
+    box-sizing: border-box;
+    width: 16px;
+    height: 16px;
+    display: block;
+    border: 1px solid #E9E9E9;
+    border-radius: 3px;
+    position: absolute;
+    top: 14px;
+    right: 16px;
+}
+
+.catalog-filters form .main-filters .filter.active .filters span:hover label::after {
+    border-color: white;
+}
+
+.catalog-filters form .main-filters .filter.active .filters .checkbox:checked+label::after{
+    border-color: #ED4E51;
+    background-color: #ED4E51;
+    background-image: url(/img/checked.svg);
+    background-position: center;
+}
+
+.catalog-filters form .main-filters .filter.active .filters span:hover .checkbox:checked+label::after {
+    border-color: white;
+}
+
+.catalog-filters form .tags {
+    display: flex;
+    margin-bottom: 22px;
+}
+
+.catalog-filters form .tags button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: 1px solid #ED4E51;
+    border-radius: 20px;
+    margin-right: 8px;
+}
+
+.catalog-filters form .tags button p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ED4E51;
+}
+
+.catalog-filters form .drop-tags {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+.catalog-filters form .drop-tags p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #494949;
+}
+
+.catalog-filters .header-sort {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.catalog-filters .section-header {
+    margin-right: 22px;
+}
+
+.catalog-filters .header-sort button {
+    display: flex;
+    align-items: center;
+    border: none;
+    background: none;
+    padding: 0;
+    margin-right: 22px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AFAFAF;
+}
+
+.catalog-filters .header-sort button.active {
+    color: #ED4E51;
+}
+
+.catalog-filters .header-sort button span {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+
+.catalog-filters .header-sort button.active span {
+    -webkit-mask-image: url(/img/filter-arrow.svg);
+    mask-image: url(/img/filter-arrow.svg);
+    background-size: 24px 24px;
+    background-color: #ED4E51;
+    background-position: center;
+    position: relative;
+    bottom: 3px;
+}

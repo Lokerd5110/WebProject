@@ -1,0 +1,43 @@
+.catalog-titles {
+    margin-bottom: 98px;
+}
+
+.catalog-titles .cards {
+    display: grid;
+    grid-template-columns: 265px 265px 265px 265px;
+    grid-template-rows: 180px 180px 180px;
+    column-gap: 20px;
+    row-gap: 32px;
+    margin-bottom: 64px;
+}
+
+.catalog-titles .page-numbers {
+    display: flex;
+    justify-content: center;
+}
+
+.catalog-titles .page-numbers a {
+    color: #494949;
+    text-decoration: none;
+    display: block;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: 900;
+    size: 14px;
+    text-align: center;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+.catalog-titles .page-numbers li.active a {
+    color: white;
+    background-color: #ED4E51;
+} 
+
+.catalog-titles .page-numbers li:last-child a {
+    margin-right: 0;
+}
+
+.

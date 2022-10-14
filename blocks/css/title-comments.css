@@ -1,0 +1,43 @@
+.title-comments {
+    margin-bottom: 171px;
+}
+
+.title-comments .section-header {
+    margin-bottom: 32px;
+}
+
+.title-comments form {
+    position: relative;
+    margin-bottom: 48px;
+}
+
+.title-comments form textarea {
+    width: 100%;
+    color: #494949;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 16px 30px;
+    padding-right: 92px;
+    box-sizing: border-box;
+    background-color: #FBFBFB;
+    border: 1px solid #E2E2E2;
+    border-radius: 12px;
+}
+
+.title-comments form button {
+    background-color: #ED4E51;
+    border: none;
+    border-radius: 30px;
+    width: 32px;
+    height: 32px;
+    padding-left: 6px;
+    padding-top: 4px;
+    position: absolute;
+    top: 16px;
+    right: 30px;
+}
+
+.title-comments .comment {
+    margin-bottom: 32px;
+}

@@ -1,15 +1,9 @@
-<?php
-    $titleName = "Твое имя";
-    $type = "movie";
-    $stopped = "1:23:44";
-    $serNumb = "";
-?>
 <div class="continue">
-    <img src="./img/continue-background.png" alt="" width="46" height="46">
+    <a href=<?php if($type == "anime") echo "/anime/title/"; else echo "/manga/title/"; ?>><img src="<?= $picturePath ?>" alt="" width="46" height="46"></a>
     <div class="title">
-        <h3 class="titleName"><?= $titleName ?></h3>
+        <a href=<?php if($type == "anime") echo "/anime/title/"; else echo "/manga/title/"; ?> class="titleName"><?= $titleName ?></a>
         <p class="content-series"><?php 
-            switch($type) {
+            switch($titleType) {
                 case "anime":
                     echo($serNumb . " эпизод");
                     break;
@@ -18,6 +12,9 @@
                     break;
                 case "manga":
                     echo("Манга");
+                    break;
+                case "manhwa":
+                    echo("Манхва");
                     break;
             }
         ?></p>
@@ -31,7 +28,7 @@
                 echo($stopped);
                 break;
             case "manga":
-                echo("Глава" . $stopped);
+                echo("Глава " . $stopped);
                 break;
         }
     ?></p>

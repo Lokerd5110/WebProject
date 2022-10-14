@@ -1,0 +1,48 @@
+.title-origins {
+    margin-bottom: 52px;
+    background-color: #ED4E51;
+    padding: 35px 0 39px 56px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: white;
+    position: relative;
+}
+.title-origins .section-header {
+    font-size: 40px;
+    line-height: 55px;
+    margin-bottom: 37px;
+}
+
+.title-origins p {
+    width: 330px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.title-origins .circle {
+    width: 500px;
+    height: 232px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.title-origins .circle span {
+    display: block;
+    width: 682px;
+    height: 682px;
+    border-radius: 341px;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    bottom: -225px;
+}
+
+.title-origins img {
+    position: absolute;
+    bottom: 0;
+    right: 86px;
+}

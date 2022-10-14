@@ -1,19 +1,10 @@
-<?php
-    $topNumber = 6;
-    $rate = 4.7;
-    $titleName = "Клинок, рассекающий демонов";
-    $description = "Танджиро - старший сын в семье, потерявшей кормильца. Однажды, он уходит в другой город. Утром парень вернётся домой живой и невредимый... Но его ждут ужасные известия... ";
-?>
-<div class="banner">
+<a href=<?php if($type == "anime") echo "/anime/title/"; else echo "/manga/title/"; ?> class="banner" style="background-image: url(<?= $picturePath ?>);">
     <div class="top">
         <span class="top-number">
             <p><?= $topNumber ?></p>
         </span>
-        <div class="rate">
-            <img src="./img/rating-star.svg" alt="">
-            <p><?= $rate ?></p>
-        </div>
+        <?php include $root."/templates/big-rate.php"; ?>
     </div>
     <h2 class="header"><?= $titleName ?></h2>
     <p class="description"><?= $description ?> </p>
-</div>
+</a>

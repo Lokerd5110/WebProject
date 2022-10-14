@@ -1,0 +1,22 @@
+.title-similar {
+    margin-bottom: 52px;
+    position: relative;
+}
+
+.title-similar .section-header {
+    margin-bottom: 32px;
+}
+
+.title-similar .titles {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.title-similar button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 130px;
+    right: -29px;
+}

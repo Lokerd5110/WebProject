@@ -3,17 +3,13 @@
     position: relative;
 }
 
-.popular-genres .section-header {
-    margin-bottom: 32px;
-}
-
 .popular-genres .genres-list {
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
 }
 
-.popular-genres .genres-list .genre-card {
+.popular-genres .genres-list .genre-cont {
     margin-right: 20px;
 }
 
