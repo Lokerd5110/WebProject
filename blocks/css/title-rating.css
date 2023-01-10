@@ -23,8 +23,8 @@
 .title-rating .simple-rating .stars .star {
     width: 40px;
     height: 40px;
-    -webkit-mask-image: url(/img/big-title-star.svg);
-    mask-image: url(/img/big-title-star.svg);
+    -webkit-mask-image: url(/img/icons/big-title-star.svg);
+    mask-image: url(/img/icons/big-title-star.svg);
 }
 
 .title-rating .simple-rating .number {

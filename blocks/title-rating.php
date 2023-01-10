@@ -30,7 +30,7 @@
             for($i = 0; $i < 5; $i++) {
                 echo ('<tr class="line">
                         <td width="23px" class="mark">'.(5 - $i).'</td>
-                        <td width="36px"><img src="/img/small-title-star.svg" alt=""></td>
+                        <td width="36px"><img src="../../img/icons/small-title-star.svg" alt=""></td>
                         <td width="590px"><div class="grey-line"></div><div class="red-line" style="width: '.round(550 * ($marks[$i] / $sum), 0).'px "></td>
                         <td width="84px" class="percent">'.round($marks[$i] / $sum*100, 1).'%</td>
                         <td class="amountVoices">'.$marks[$i].'</td>

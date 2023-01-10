@@ -3,14 +3,14 @@
     <div class="banners">
         <?php
             if ($type == "anime") {
-                $picturePath = "/img/anime-big-card-background.png";
+                $picturePath = "/img/images/anime-big-card-background.png";
             }   else {
-                $picturePath = "/img/manga-big-card-background.png";
+                $picturePath = "/img/images/manga-big-card-background.png";
             }
             for($i = 0; $i < 4; $i++) {
                 include $root."/templates/big-card.php";
             }
         ?>
     </div>
-    <button class="swap-btn"><img src="/img/swap-btn.svg" alt=""></button>
+    <button class="swap-btn"><img src="/img/icons/swap-btn.svg" alt=""></button>
 </div>

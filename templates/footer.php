@@ -1,9 +1,9 @@
 <div class="footer">
     <div class="social">
-        <a href="#"><img src="/img/telegram-icon.svg" alt=""></a>
-        <a href="#"><img src="/img/vk-icon.svg" alt=""></a>
-        <a href="#"><img src="/img/twitter-icon.svg" alt=""></a>
-        <a href="#"><img src="/img/youtube-icon.svg" alt=""></a>
+        <a href="#"><img src="/img/icons/telegram-icon.svg" alt=""></a>
+        <a href="#"><img src="/img/icons/vk-icon.svg" alt=""></a>
+        <a href="#"><img src="/img/icons/twitter-icon.svg" alt=""></a>
+        <a href="#"><img src="/img/icons/youtube-icon.svg" alt=""></a>
     </div>
     <div class="info">
         <a href="#">Справка</a>

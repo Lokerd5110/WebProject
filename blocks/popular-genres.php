@@ -7,5 +7,5 @@
             }
         ?>
     </div>
-    <button class="swap-btn"><img src="/img/swap-btn.svg" alt=""></button>
+    <button class="swap-btn"><img src="/img/icons/swap-btn.svg" alt=""></button>
 </div>

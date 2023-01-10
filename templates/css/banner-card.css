@@ -37,7 +37,7 @@
     display: block;
     width: 48px;
     height: 43px;
-    background-image: url(/img/top-number.svg);
+    background-image: url(/img/icons/top-number.svg);
     position: relative;
     top: 2px;
 }

@@ -35,8 +35,8 @@
 .catalog-filters .open-btn span {
     width: 24px;
     height: 24px;
-    -webkit-mask-image: url(/img/filter-icon.svg);
-    mask-image: url(/img/filter-icon.svg);
+    -webkit-mask-image: url(/img/icons/filter-icon.svg);
+    mask-image: url(/img/icons/filter-icon.svg);
     background-color: #FFFFFF;
 }
 
@@ -205,7 +205,7 @@
 .catalog-filters form .main-filters .filter.active .filters .checkbox:checked+label::after{
     border-color: #ED4E51;
     background-color: #ED4E51;
-    background-image: url(/img/checked.svg);
+    background-image: url(/img/icons/checked.svg);
     background-position: center;
 }
 
@@ -286,8 +286,8 @@
 }
 
 .catalog-filters .header-sort button.active span {
-    -webkit-mask-image: url(/img/filter-arrow.svg);
-    mask-image: url(/img/filter-arrow.svg);
+    -webkit-mask-image: url(/img/icons/filter-arrow.svg);
+    mask-image: url(/img/icons/filter-arrow.svg);
     background-size: 24px 24px;
     background-color: #ED4E51;
     background-position: center;

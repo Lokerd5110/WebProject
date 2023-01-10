@@ -9,14 +9,14 @@
         <?php 
             for($i = 0; $i < $showedTitles; $i++ ) {
                 if ($type == "anime") {
-                    $picturePath = "/img/anime-small-card-background.png";
+                    $picturePath = "/img/card-images/small-naruto.png";
                     $episodes = 725;
                     $titleName = "One Piece";
                     $genre = "Комедия";
                     $rate = 4.7;
                     $titleType = "anime";
                 }   else {
-                    $picturePath = "/img/manga-small-card-background.png";
+                    $picturePath = "/img/card-images/small-naruto.png";
                     $titleName = "Хоримия";
                     $genre = "Повседневность";
                     $rate = 4.7;

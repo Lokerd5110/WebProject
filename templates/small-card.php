@@ -1,4 +1,4 @@
-<a href=<?php if($type == "anime") echo "/anime/title/"; else echo "/manga/title/"; ?> class="small-card" style="background-image: url(<?= $picturePath ?>);">
+<a class="small-card">
     <?php include $root."/templates/rate.php"; ?>
     <div class="bottom">
         <p class="episodes"><?php
@@ -18,6 +18,6 @@
             }  
         ?></p>
         <h2 class="title-name"><?= $titleName ?></h2>
-        <object><a href="#" class="tag"><?= $genre ?></a></object>
+        <object></object>
     </div>
 </a>

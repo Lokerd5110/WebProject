@@ -17,6 +17,9 @@
     left: 376px;
     bottom: 13px;
 }
+.main-top .continue-watching {
+    width: 247px;
+}
 
 .main-top .continue-watching h2 {
     font-size: 16px;
@@ -41,5 +44,4 @@
     height: 328px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }

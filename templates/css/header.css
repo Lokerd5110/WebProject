@@ -61,8 +61,8 @@
 }
 
 .header .alter-page .anime span {
-    -webkit-mask-image: url(/img/anime-icon.svg);
-    mask-image: url(/img/anime-icon.svg);
+    -webkit-mask-image: url("/img/icons/anime-icon.svg");
+    mask-image: url("/img/icons/anime-icon.svg");
     background-color: #9A9A9A;
 }
 
@@ -71,8 +71,8 @@
 }
 
 .header .alter-page .manga span {
-    -webkit-mask-image: url(/img/manga-icon.svg);
-    mask-image: url(/img/manga-icon.svg);
+    -webkit-mask-image: url("/img/icons/manga-icon.svg");
+    mask-image: url("/img/icons/manga-icon.svg");
     background-color: #9A9A9A;
 }
 
@@ -124,13 +124,152 @@
     align-items: center;
 }
 
-.header .right .profile p {
+.header .right .profile button {
+    font-family: 'Nunito';
+    font-weight: 700;
+    padding: 0;
     margin-right: 16px;
-    color: #969696;
+    color: #494949;
+    background: none;
+    border: none;
+    font-size: 16px;
+    line-height: 22px;
 }
 
-.header .right .profile span {
-    color: black;
+.header .pop-up {
+    z-index: 20;
+    display: none;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #494949;
+}
+
+.header .pop-up .form-background {
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 20vh;
+    height: min-content;
+    padding: 40px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #494949;
+}
+
+.header .pop-up .login-type {
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.header .pop-up .login-type button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-bottom: 3px solid #494949;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.header .pop-up .login-type button.active {
+    color: #ED4E51;
+    border-color: #ED4E51;
+}
+
+.header .pop-up .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 5px;
+}
+
+.header .pop-up .form.login {
+    display: none;
+}
+
+.header .pop-up .form button {
+    margin-top: 10px;
+    padding: 10px 0;
+    background: none;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    border: 3px solid #494949;
+    border-radius: 10px;
+    color: #494949;
+}
+
+.header .pop-up .form button:hover {
+    border-color: #ED4E51;
+    color: #ED4E51;
+}
+
+.header .pop-up .form input {
+    margin-bottom: 15px;
+    font-family: 'Nunito';
+    font-size: 20px;
+    line-height: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.header .exit-pop-up {
+    z-index: 20;
+    display: none;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #494949;
+}
+
+.header .exit-pop-up .background {
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 20vh;
+    height: min-content;
+    padding: 40px 30px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid #494949;
+}
+
+.header .exit-pop-up button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: none;
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    border: 3px solid #494949;
+    border-radius: 10px;
+    color: #494949;
+}
+
+.header .exit-pop-up button:hover {
+    border-color: #ED4E51;
+    color: #ED4E51;
 }
 
 .header .line {
@@ -138,3 +277,4 @@
     height: 1px;
     background-color: #E9E9E9;
 }
+

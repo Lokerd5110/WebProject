@@ -17,7 +17,7 @@
                 <button>
                     <h2 class="filter-name">Жанры</h2>
                     <p class="selected-filters">Приключения,&#160;Комедия,&#160;Романтика</p>
-                    <img src="/img/filter-arrow.svg" alt="">
+                    <img src="/img/icons/filter-arrow.svg" alt="">
                 </button>
                 <div class="filters">
                     <?php for($i=0; $i < count($genres); $i+=2) {
@@ -29,7 +29,7 @@
                 <button>
                     <h2 class="filter-name">Годы</h2>
                     <p class="selected-filters"></p>
-                    <img src="/img/filter-arrow.svg" alt="">
+                    <img src="/img/icons/filter-arrow.svg" alt="">
                 </button>
                 <div class="filters">
                     <?php for($i=0; $i < count($years); $i++) {
@@ -41,7 +41,7 @@
                 <button>
                     <h2 class="filter-name">Озвучка</h2>
                     <p class="selected-filters"></p>
-                    <img src="/img/filter-arrow.svg" alt="">
+                    <img src="/img/icons/filter-arrow.svg" alt="">
                 </button>
                 <div class="filters">
                     <?php for($i=0; $i < count($voices); $i+=2) {
@@ -53,7 +53,7 @@
                 <button>
                     <h2 class="filter-name">Статус</h2>
                     <p class="selected-filters"></p>
-                    <img src="/img/filter-arrow.svg" alt="">
+                    <img src="/img/icons/filter-arrow.svg" alt="">
                 </button>
                 <div class="filters">
                     <?php for($i=0; $i < count($statuses); $i+=2) {
@@ -64,20 +64,20 @@
         </fieldset>
         <fieldset class="tags">
             <button>
-                <img src="/img/filter-plus.svg" alt="">
+                <img src="/img/icons/filter-plus.svg" alt="">
                 <p>Субтитры</p>
             </button>
             <button>
-                <img src="/img/filter-plus.svg" alt="">
+                <img src="/img/icons/filter-plus.svg" alt="">
                 <p>Субтитры</p>
             </button>
             <button>
-                <img src="/img/filter-plus.svg" alt="">
+                <img src="/img/icons/filter-plus.svg" alt="">
                 <p>Субтитры</p>
             </button>
         </fieldset>
         <button class="drop-tags">
-            <img src="/img/filter-cross.svg" alt="">
+            <img src="/img/icons/filter-cross.svg" alt="">
             <p>Сбросить фильтры</p>
         </button>
     </form>

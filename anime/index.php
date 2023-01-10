@@ -29,4 +29,5 @@
             
         <?php include $root."/templates/footer.php" ?>
     </body>
+    <script src="/scripts/genre-titles-anime.js"></script>
 </html>

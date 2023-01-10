@@ -2,7 +2,7 @@
     <h2 class="section-header">Комментарии:</h2>
     <form>
         <textarea name="comment" id="comment" placeholder="Ваш комментарий" rows="3"></textarea>
-        <button class="send-btn"><img src="/img/send-icon.svg" alt=""></button>
+        <button class="send-btn"><img src="/img/icons/send-icon.svg" alt=""></button>
     </form>
     <div class="comments">
         <?php 

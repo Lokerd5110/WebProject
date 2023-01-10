@@ -1,13 +1,13 @@
 <?php
     if ($type == "anime") {
-        $picturePath = "/img/anime-small-card-background.png";
+        $picturePath = "/img/images/anime-small-card-background.png";
         $episodes = 725;
         $titleName = "One Piece";
         $genre = "Комедия";
         $titleType = "anime";
         $rate = 4.7;
     }   else {
-        $picturePath = "/img/manga-small-card-background.png";
+        $picturePath = "/img/images/manga-small-card-background.png";
         $titleName = "Хоримия";
         $genre = "Повседневность";
         $titleType = "manhwa";

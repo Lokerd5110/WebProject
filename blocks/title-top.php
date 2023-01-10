@@ -1,7 +1,7 @@
 <?php
     if($type == "anime") {
         $titleType = "movie";
-        $picturePath = "/img/anime-title-img.png";
+        $picturePath = "/img/images/anime-title-img.png";
         $titleName = "Твоё имя";
         $description = "Парень из Токио Таки и девушка из провинции Мицуха обнаруживают, что о сне они меняются телами и проживают жизни друг друга. Но однажды эта способность исчезает и Таки решает во что бы то ни стало отыскать Мицуху.";
         $status = "ended";
@@ -14,7 +14,7 @@
         $rate = "4.7";
         $userChoice = true;
     } else {
-        $picturePath = "/img/manga-title-img.png";
+        $picturePath = "/img/images/manga-title-img.png";
         $titleType = "manga";
         $titleName = "Ванпанчмен";
         $description = "Манга повествует о молодом человеке по имени Сайтама. Он — герой, обычный герой. Основная его проблема в том, что он вышибает дух из злодеев одним ударом. А это очень скучно…";
@@ -37,7 +37,7 @@
             <?php if ($userChoice) {
                 echo (
                     '<div class="userChoice">
-                        <img src="/img/rating-icon.svg" alt="">
+                        <img src="/img/icons/rating-icon.svg" alt="">
                         <p>Выбор зрителей</p>
                     </div>'
                 );
@@ -50,7 +50,7 @@
         <p class="description"><?= $description ?></p>
         <span class="buttons">
             <button class="watch">Смотреть аниме</button>
-            <button class="like"><img src="/img/title-like-icon.svg" alt=""></button>
+            <button class="like"><img src="/img/icons/title-like-icon.svg" alt=""></button>
         </span>
         <h2 class="section-header about">Об аниме:</h2>
         <ul>
